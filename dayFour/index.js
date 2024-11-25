@@ -10,6 +10,7 @@ const randomNumber = getRandomNumber(0, 10);
 let attempts = 3;
 let guess = parseInt(prompt("Olá! Tente adivinhar um número entre 0 e 10."));
 
+// Gerar loop até que as espectativas sejam atingidas
 while (attempts > 0) {
     if (guess === randomNumber) {
         alert(`Parabéns! Você acertou o número ${randomNumber} com ${attempts} tentativas restantes!`);
